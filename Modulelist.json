@@ -1,0 +1,49 @@
+[
+    {
+        "modulename":  "An Example",
+		"description":  "This is an example",
+        "Fileurl":  "https://website/module.psm1",
+        "extrafiles":["https://nettside.com/extrafile.txt","https://nettside.com/extrafile.doc"],
+		"extrafolders":  ["c:\\temp\\test\\test2","G:\\temp\\test\\test2"],
+		"installscript":  "https://website/script.ps1"
+    },
+	{
+        "modulename":  "Invoke-Parallel",
+		"description":  "Foreach parallel processing",
+        "Fileurl":  "https://wiki.ap3x.org/bin/download/Windows/PowerShell/Invoke-Parallel+Powershell/I-Parallel.psm1",
+        "extrafiles":  ""
+    },
+	{
+        "modulename":  "Posh-SSH",
+		"description":  "External: SSH support in powershell",
+        "Fileurl":  "",
+        "extrafiles":  "",
+		"installscript":  "https://gist.github.com/darkoperator/6152630/raw/c67de4f7cd780ba367cccbc2593f38d18ce6df89/instposhsshdev"
+    },
+	{
+        "modulename":  "Chocolatey",
+		"description":  "External: Package installer",
+        "Fileurl":  "",
+        "extrafiles":  "",
+		"installscript":  "https://chocolatey.org/install.ps1"
+    },
+		{
+        "modulename":  "XwikiPS",
+		"description":  "Powershell module for Xwiki interaction",
+        "Fileurl":  "https://wiki.ap3x.org/bin/download/Windows/PowerShell/PSXwiki+-+Powershell+module+for+xwiki+interaction/XwikiPS.psm1",
+        "extrafiles":  "",
+		"installscript":  ""
+    },
+    {
+        "modulename":  "Azure-Tools",
+		"description":  "Tools for azure management",
+        "Fileurl":  "https://wiki.ap3x.org/bin/download/Windows/PowerShell/Azure-Tools+powershell+module/Azure-Tools.psm1",
+        "extrafiles":  ""
+	},
+	{
+        "modulename":  "Drivhusino",
+		"description":  "Module for Drivhusino service",
+        "Fileurl":  "https://wiki.ap3x.org/bin/download/Drivhusino/WebHome/Drivhusino.psm1",
+        "extrafiles":  ""
+	}
+]
